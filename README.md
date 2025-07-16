@@ -74,20 +74,21 @@ project_root/
     - omegaconf
     - 
 
-- Windows Subsystem for Linux
-- Dev containers
+- [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)
+- [Dev containers](https://containers.dev/)
 
 ## Formatter & linter
-- black (formatter)
-- flake8 (linter)
-- ruff (both)
+- [black](https://black.readthedocs.io/en/stable/index.html) (formatter)
+- [flake8](https://flake8.pycqa.org/en/latest/) (linter)
+- [ruff](https://docs.astral.sh/ruff/formatter/) (both)
 
 ## other tools
-- pre-commit
+- [pre-commit](https://pre-commit.com/)
 
 ## Dependencies
-- `pip-tools`
-- `uv`
-- `poetry`
+- [`pip-tools`](https://pip-tools.readthedocs.io/en/stable/)
+- [`uv`](https://docs.astral.sh/uv/)
+- [`poetry`](https://python-poetry.org/)
+- [`pdm`](https://pdm-project.org/latest/)
 
 - Adam Johnson pre-commit with uv blog post
