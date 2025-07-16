@@ -1,0 +1,19 @@
+[project]
+name = 'best'
+version = '0.0.1'
+dependencies = [
+    "django>=5.2.4",
+    "wagtail>=7.0.1",
+]
+
+[project.scripts]
+hello = 'best:cli'
+
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]

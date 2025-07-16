@@ -1,0 +1,2 @@
+hello *ARGS:
+  hello *ARGS
